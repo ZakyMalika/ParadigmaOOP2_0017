@@ -29,8 +29,10 @@ int main() {
 	lia b;
 
 	objek = &a;
-
+	objek->pesan();
 	objek = &b;
+	objek->pesan();
+	//a.seseorang:::pesan();
 
-
+	return 0;
 }
